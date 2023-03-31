@@ -1,6 +1,8 @@
 # HTML
 
-Es un lenguaje de hipertexto para estructurar páginas web. Este lenguaje está basado en etiquetas que se utilizan para definir el contenido y estructura de la página web. Especificando elementos como texto, imágenes, formularios y enlaces
+Es un lenguaje de hipertexto para estructurar páginas web. Este lenguaje está basado en etiquetas que se utilizan para definir el contenido y estructura de la página web. Especificando elementos como texto, imágenes, formularios y enlaces.
+
+Una pagina web tiene tres partes, la cabecera (head), el cuerpo (body) y el pie (footer).
 
 ## Estructura
 
