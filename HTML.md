@@ -8,6 +8,8 @@ Una pagina web tiene tres partes, la cabecera (head), el cuerpo (body) y el pie 
 
 Un layout es la manera en que organizamos nuestra pagina, por lo que es una buena practica seria dividir nuestra pagina en secciones para organizarla. Para esto usamos <!sections> <!/sections>
 
+<b>main</b> = Debe contener todo el contenido principal de una pagina, encabezados, parrafos imagenes, etc.
+
 <b>nav</b> = Definir la seccion de navegacion de una pagina web
 
 <b>article</b> = Definir el contenido de una pagina web, como un articulo o blog.
@@ -33,10 +35,6 @@ Se utilizan para indicar al navegador como se debe mostrar y procesar el conteni
 |Atributos| Proporcionan informacion adicional a una etiqueta o modifican su comportamiento. Se agregan a la ruta de apertura y se definen con un nombre y valor|````<img scr="ruta de la imagen">````
 |Contenido|Texto dentro de una etiqueta| ````<p>Hola</p>````
 |Etiqueta de cierre| Es el ultimo elemento de una etiqueta, se usapara indicar el cierre de esta|````<p>Hola</p>````
-
-## ETIQUETAS SEMANTICAS
-
-
 
 ## ETIQUETAS DE TITULO
 
