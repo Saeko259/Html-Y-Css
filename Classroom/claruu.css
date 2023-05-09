@@ -1,0 +1,128 @@
+body {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    border-bottom: 2px solid rgb(208, 207, 207);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.LI {
+    display: flex;
+    gap: 30px;
+}
+
+.letra {
+    display: flex;
+    justify-content: end;
+}
+
+.main {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+.cardscontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 10px;
+}
+
+.cardtop {
+    width: 286px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    border: 2px solid blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+
+.cardmid {
+    width: 296px;
+    height: 137px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    border-left: 2px solid rgb(208, 207, 207);
+    border-right: 2px solid rgb(208, 207, 207);
+    border-bottom: 2px solid rgb(208, 207, 207);
+}
+
+.cardbottom {
+    width: 296px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid rgb(208, 207, 207);
+    border-left: 2px solid rgb(208, 207, 207);
+    border-right: 2px solid rgb(208, 207, 207);
+}
+
+.LIB {
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    gap: 20px;
+}
+
+.Botones {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.tareas {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.tareas:hover {
+    color: lightslategray
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    color: white;
+}
+
+.text {
+    font-family: sans-serif;
+    font-style: normal;
+    color: lightslategray;
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    margin-right: 15px;
+}

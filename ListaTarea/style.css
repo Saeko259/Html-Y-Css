@@ -1,0 +1,38 @@
+.main {
+    width: 97vw;
+    height: 97vw;
+    border: 2px solid #900282;
+    background-color: #900282;
+    text-align: center;
+    color: white;
+}
+
+.cards{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center   ;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    background-color: rgb(13, 137, 246);
+    border: 5px solid rgb(13, 137, 246);
+    display: grid;
+    grid-gap: 5px;
+    text-align: center;
+    color: white;
+}
+
+.task {
+
+    text-align: center;
+    color: white;
+    width: auto;
+    height: auto;
+    border: 5px solid #cf0c0c;
+    background-color: #cf0c0c;
+
+}

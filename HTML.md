@@ -75,6 +75,7 @@ Son usadas para agregar imagenes, videos y elementos, tal como lo dice, multimed
 |img | tiene un atributo scr que determina la ubicacion de un archivo.|<b>src</b> = url de la imagen, <b>alt</b> = texto o descripcion corta; <b>name</b> = nombre de la imagen.
 |picture| contenedor que puede tener distintas imagenes, o distintas versiones de una imagen| N/a
 |figure|Imagen con pie o descripcion| N/a|
+|<!a>|Texto que es un hypervinculo| se usa ````<a href="link">textodelhypervinculo</a>````, donde href indica el link al cual te va a dirigir,
 
 #### <b>Atributos de etiquetas multimedia</b>
 
@@ -84,8 +85,9 @@ Son usadas para agregar imagenes, videos y elementos, tal como lo dice, multimed
 4. preload: EL video y sus datos se pueden precargar.
 5. scr: Url o origen del video.
 6. Height y width:  Especifica largo y ancho del video.
+7. alt: Descripcion que no aparece en la pagina de la imagen
 ````html
-    <video controls autoplay loop scr = "video.mp4" >
+    <video controls autoplay loop scr = "video.mp4" alt ="Video de mono desnudo">
 ````
 
 ### <b>La etiqueta image</b>

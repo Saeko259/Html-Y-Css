@@ -1,0 +1,54 @@
+body {
+    background-color: #dad9d9;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 97vh;
+    align-items: center;
+}
+
+.main {
+    height: 250px;
+    width: 1000px;
+}
+
+.temario {
+    width: 729px;
+    height: auto;
+}
+
+.temario :hover {
+    border: 2px solid #252525;
+}
+
+.title {
+    border-bottom: 2px solid #252525;
+    font-size: 40px;
+}
+
+.tema {
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tema:hover {
+    border: 2px solid #252525;
+}
+
+.TemaIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.nombreTema {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.fechaDePiblicacion {
+    font-size: small;
+    font-weight: lighter;
+}
