@@ -30,14 +30,14 @@ body {
 .cardscontainer {
     display: grid;
     grid-template-columns: repeat(5, 2fr);
-    grid-gap: 10px;
+    grid-gap: 25px;
 }
 
 .cardtop {
     width: 286px;
-    height: 100px;
+    height: 75px;
     background-color: blue;
-    display: flex;
+    display: grid;
     border: 2px solid blue;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -45,7 +45,7 @@ body {
     color: white;
     font-size: 14px;
     font-family: sans-serif;
-    
+
 }
 
 .cardmid {
@@ -93,7 +93,6 @@ body {
     margin-top: 5px;
     margin-left: 10px;
     color: black;
-    font-family: system-ui;
     font-size: 15px;
 }
 
@@ -111,6 +110,8 @@ a:hover {
 
 .titulo {
     color: white;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .text {
@@ -123,6 +124,20 @@ a:hover {
     align-items: center;
 }
 
-.img{
+.img {
     margin-right: 15px;
+}
+
+.techer {
+
+    color: #dbdbdb;
+    display: block;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+    width: 210px;
+    font-size: 13px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+
 }
