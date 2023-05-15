@@ -1,0 +1,165 @@
+main{
+    background-color: aliceblue;
+}
+
+.header {
+    border-bottom: 1px solid rgb(208, 207, 207);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text{
+    font-size: 30px;
+    position: relative;
+    top: -8px;
+}
+
+.LI {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.topmid{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 6px;
+    right: 55px;
+    font-size: 15px;
+}
+
+.topmidtext{
+    color:darkblue;
+}
+
+.cuadrado{
+    width: 75px;
+    height: 4px;
+    background-color: rgb(1, 1, 119);
+    position: relative;
+    top: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+
+}
+
+.mid{
+    position: relative;
+    top: 15px;
+    left: 275px;
+    display: grid;
+    align-content: center;
+}
+
+.midbanner{
+    width: 750px;
+    height: 200px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.midbannertext{
+    position: relative;
+    top: -20px;
+    font-size: 35px;
+    left: 20px;
+}
+
+.entregas{
+    position: relative;
+    top: 20px;
+    border: 1.5px solid rgb(208, 207, 207);
+    position: relative;
+    width: 165px;
+    height: 115px;
+    border-radius: 10px;
+    display: grid;
+}
+
+.textentre{
+    position: relative;
+    top: 6px;
+    left: 10px;
+    font-size: 14px;
+}
+
+.textentremid{
+    position: relative;
+    top: 6px;
+    left: 10px;
+    font-size: 14px;
+    color: rgb(121, 141, 160);
+}
+
+.textentrebot{
+    position: relative;
+    top: 6px;
+    left: 110px;
+    font-size: 14px;
+    color: darkblue;
+
+}
+
+.anuncios{
+    position: relative;
+    left:200px;
+    top: -100px;
+}
+
+.escribe{
+    padding: 5px;
+    background-color :rgb(240, 241, 241) ;
+    width: 540px;
+    height: 30px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 10px;
+}
+
+.textescribe{
+    position: relative;
+    top: -9.8px;
+    left: 5px;
+    color: black;
+    
+}
+
+.tarea{
+    position: relative;
+
+    padding: 5px;
+    width: 540px;
+    height: 30px;
+    border: 1.5px solid rgb(208, 207, 207);
+    border-radius: 10px;
+}
+
+.tarea:hover{
+    background-color :rgb(240, 241, 241) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.anuncio{
+    padding: 5px;
+    width: 540px;
+    height: 2150px;
+    border: 1.5px solid rgb(208, 207, 207);
+    border-radius: 10px;
+}
+
+.textanuncio{
+    position: relative;
+    top: -9.8px;
+    left:5px;
+    color: black;
+    text-align: right;
+}

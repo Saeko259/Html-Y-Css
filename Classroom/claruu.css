@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    border-bottom: 2px solid rgb(208, 207, 207);
+    border-bottom: 1.5px solid rgb(208, 207, 207);
     display: flex;
     justify-content: space-between;
 }
@@ -36,15 +36,15 @@ body {
 .cardtop {
     width: 286px;
     height: 75px;
-    background-color: blue;
+    background-color: darkblue;
     display: grid;
-    border: 2px solid blue;
+    border: 2px solid darkblue;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-left: 10px;
     color: white;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family:  Product Sans;
 
 }
 
@@ -84,8 +84,8 @@ body {
     display: flex;
     gap: 10px;
     font-size: 20px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 
